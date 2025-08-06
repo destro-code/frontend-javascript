@@ -18,7 +18,7 @@ const teacher3: Teacher = {
 console.log(teacher3);
 
 
-interface Director extends Teacher {
+interface Directors extends Teachers {
   numberOfReports: number;
 }
 
